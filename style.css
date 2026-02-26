@@ -1,0 +1,30 @@
+:root { --primary: #c0392b; --dark: #1a1a1a; --accent: #ff9800; }
+* { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Arial', sans-serif; scroll-behavior: smooth; }
+
+.navbar { display: flex; justify-content: space-between; padding: 15px 10%; background: var(--dark); color: white; position: sticky; top: 0; z-index: 1000; align-items: center; }
+.logo { font-size: 1.5rem; font-weight: bold; }
+.logo span { color: var(--accent); }
+.nav-links { display: flex; list-style: none; }
+.nav-links li { margin-left: 20px; }
+.nav-links a { color: white; text-decoration: none; font-size: 0.9rem; }
+
+.hero { height: 70vh; background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=1200&q=80'); background-size: cover; display: flex; align-items: center; justify-content: center; text-align: center; color: white; padding: 20px; }
+.hero h1 { font-size: 2.8rem; margin: 15px 0; }
+.badge { background: var(--accent); padding: 5px 15px; border-radius: 20px; font-size: 0.8rem; }
+.hero-btns { margin-top: 20px; }
+.btn-primary { background: var(--primary); color: white; padding: 12px 25px; text-decoration: none; border-radius: 5px; font-weight: bold; display: inline-block; margin: 5px; }
+.btn-whatsapp { background: #25d366; color: white; padding: 12px 25px; text-decoration: none; border-radius: 5px; font-weight: bold; display: inline-block; margin: 5px; }
+
+.categories { padding: 60px 10%; text-align: center; background: #f4f4f4; }
+.category-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin-top: 30px; }
+.cat-card { background: white; padding: 30px; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+.cat-card i { font-size: 2.5rem; color: var(--primary); margin-bottom: 15px; }
+.cat-card.highlight { background: var(--primary); color: white; }
+.cat-card.highlight i { color: white; }
+
+.contact { padding: 60px 10%; text-align: center; }
+.contact-card { background: var(--dark); color: white; padding: 40px; border-radius: 15px; max-width: 600px; margin: auto; }
+
+.footer { background: #111; color: #777; text-align: center; padding: 20px; font-size: 0.8rem; }
+
+@media (max-width: 600px) { .hero h1 { font-size: 2rem; } .nav-links { display: none; } }

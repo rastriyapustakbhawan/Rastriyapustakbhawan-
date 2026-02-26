@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>राष्ट्रीय पुस्तक भवन | सुजानगंज, जौनपुर</title>
+    
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#c0392b">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/2232/2232688.png">
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">RPB<span>.</span></div>
+        <ul class="nav-links">
+            <li><a href="#home">होम</a></li>
+            <li><a href="#categories">कैटेगरी</a></li>
+            <li><a href="#contact">संपर्क</a></li>
+        </ul>
+    </nav>
+
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <span class="badge">जौनपुर का गौरव</span>
+            <h1>राष्ट्रीय पुस्तक भवन</h1>
+            <p>सुजानगंज, जौनपुर में शिक्षा का सबसे भरोसेमंद केंद्र। सभी प्रतियोगी परीक्षाओं एवं स्कूली पुस्तकों के लिए पधारें।</p>
+            <div class="hero-btns">
+                <a href="tel:9453367621" class="btn-primary">Call: 9453367621</a>
+                <a href="https://wa.me/919453367621" class="btn-whatsapp"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="categories" id="categories">
+        <h2 class="section-title">हमारी मुख्य सेवाएं</h2>
+        <div class="category-grid">
+            <div class="cat-card">
+                <i class="fas fa-university"></i>
+                <h3>प्रतियोगी परीक्षा</h3>
+                <p>SSC, Railway, UP Police, Banking आदि।</p>
+            </div>
+            <div class="cat-card highlight">
+                <i class="fas fa-book"></i>
+                <h3>स्कूली पाठ्यक्रम</h3>
+                <p>Nursery से 12वीं तक की सभी किताबें।</p>
+            </div>
+            <div class="cat-card">
+                <i class="fas fa-pen-fancy"></i>
+                <h3>स्टेशनरी भंडार</h3>
+                <p>कॉपी, पेन और ऑफिस का सारा सामान।</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="contact-card">
+            <h2>संपर्क सूत्र (जौनपुर)</h2>
+            <div class="info">
+                <p><i class="fas fa-map-marker-alt"></i> सुजानगंज, जौनपुर, उत्तर प्रदेश</p>
+                <p><i class="fas fa-phone-alt"></i> 9453367621, 9454260832</p>
+                <p><i class="fas fa-clock"></i> सुबह 9:00 - रात 8:00</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2026 राष्ट्रीय पुस्तक भवन | सुजानगंज, जौनपुर</p>
+    </footer>
+
+    <script>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('sw.js');
+        }
+    </script>
+
+</body>
+</html>

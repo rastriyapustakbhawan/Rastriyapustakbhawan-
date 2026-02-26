@@ -1,0 +1,15 @@
+{
+  "name": "राष्ट्रीय पुस्तक भवन",
+  "short_name": "RPB Book Shop",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#c0392b",
+  "theme_color": "#c0392b",
+  "icons": [
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/2232/2232688.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}
